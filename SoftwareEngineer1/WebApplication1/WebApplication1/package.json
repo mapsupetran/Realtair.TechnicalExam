@@ -1,0 +1,29 @@
+{
+  "name": "software_engineer_i",
+  "version": "1.0.0",
+  "description": "",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-root-import": "^5.1.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^2.1.1",
+    "react": "^16.8.5",
+    "react-content-loader": "^3.2.0",
+    "react-dom": "^16.8.5",
+    "react-hot-loader": "^3.1.3",
+    "style-loader": "^0.21.0",
+    "url-loader": "^1.0.1",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.1",
+    "webpack-dev-server": "^3.1.10"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --config webpack.config.js"
+  },
+  "license": "ISC"
+}
